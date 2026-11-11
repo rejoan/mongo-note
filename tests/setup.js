@@ -1,0 +1,5 @@
+process.env.NODE_ENV = 'test'
+process.env.MONGODB_URI = 'mongodb://127.0.0.1:27017/mongo_note_test'
+process.env.JWT_SECRET = 'testing-only-jwt-secret-do-not-use-in-production'
+process.env.JWT_ISSUER = 'mongo-note'
+process.env.BCRYPT_ROUNDS = '4'
